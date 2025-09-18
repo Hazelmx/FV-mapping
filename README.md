@@ -3,20 +3,20 @@ Step 1: Automation
 
 Input files:
 
-TRANSECTION DETAIL.xlsx
+TRANSECTION_DETAIL.xlsx
 
-Latest transaction record file that requires FV_dummy mapping.
+(Latest transaction record file that requires FV_dummy mapping.)
 
-TRANSECTION DETAIL with dummy_old.xlsx
+FV_dummy_unit_updated.xlsx
 
-Previous transaction record file with FV_dummy variables already mapped.
+(Previous transaction record file with FV_dummy variables already mapped.)
 
 Process:
 Run the code with the two input files.
 
 Output files:
 
-TRANSECTION DETAIL with dummy_new.xlsx
+TRANSECTION_DETAIL_with_dummy_new.xlsx
 (Latest transaction file with FV_dummy mapped automatically.
 New/unseen products are temporarily assigned FV_dummy = 0.)
 
@@ -32,17 +32,19 @@ Open New_product.xlsx.
 
 Manually map each new product to the correct FV_dummy.
 
-Add these newly mapped products to the corresponding sheets in unique_products_all.xlsx.
+Add these newly mapped products to the corresponding sheets in unique_products_all.xlsx and create a list of products of dummies saved in products of dummies.xlsx
 
 Step 3: Automation
 
 Input files:
 
-unique_products_all.xlsx
-(Updated with newly mapped products from Step 2.)
+products of dummies.xlsxl.xlsx
+(Generated with newly mapped products from Step 2.)
 
-TRANSECTION DETAIL with dummy_new.xlsx
-(Generated in Step 1, with unmapped products temporarily set to FV_dummy=0.)
+TRANSECTION_DETAIL.xlsx
+
+(Latest transaction record file that requires FV_dummy mapping.)
+
 
 Output file:
 
