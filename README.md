@@ -12,7 +12,7 @@ FV_dummy_unit_updated.xlsx
 (Previous transaction record file with FV_dummy variables already mapped.)
 
 Process:
-Run the code with the two input files.
+Run the code with the two input files in step 1.
 
 Output files:
 
@@ -45,6 +45,8 @@ TRANSECTION_DETAIL.xlsx
 
 (Latest transaction record file that requires FV_dummy mapping.)
 
+Process:
+Run the code with the two input files in step 3.
 
 Output file:
 
