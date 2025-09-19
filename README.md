@@ -1,3 +1,12 @@
+# Recall the first round of FV_Dummy identification
+In the first round of FV_indentification, we create FV_dummy=0 to FV_dummy=13 to classify all products appeared in the transaction file: TRANSACTION_DETAIL.xlsx (01/16)
+
+<img width="615" height="292" alt="Screenshot 2025-09-18 at 23 29 56" src="https://github.com/user-attachments/assets/1f6939c3-01b1-4976-bfa4-1ede3b1fcd08" />
+
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/a7a64a66-d66e-4d7d-b30d-220f00f5cf51" />
+
+
+
 # Workflow Overview
 Step 1: Automation
 
