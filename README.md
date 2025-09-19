@@ -8,7 +8,7 @@ In the first round of FV_indentification, we create FV_dummy=0 to FV_dummy=13 to
 
 
 # Workflow Overview
-Step 1: Automation
+**Step 1: Automation**
 
 Input files:
 
@@ -35,7 +35,7 @@ New_product.xlsx
 unique_products_all.xlsx
 (Complete list of products by FV_dummy, saved in separate sheets.)
 
-Step 2: Human-in-the-Loop
+**Step 2: Human-in-the-Loop**
 
 Open New_product.xlsx.
 
@@ -43,7 +43,7 @@ Manually map each new product to the correct FV_dummy.
 
 Add these newly mapped products to the corresponding sheets in unique_products_all.xlsx and create a list of products of dummies saved in products of dummies.xlsx
 
-Step 3: Automation
+**Step 3: Automation**
 
 Input files:
 
@@ -62,7 +62,7 @@ Output file:
 TRANSECTION DETAIL with dummy_new.xlsx
 (Final file, with all products fully mapped to their FV_dummy categories.)
 
-Deliverables
+**Deliverables**
 
 TRANSECTION DETAIL with dummy_new.xlsx → Final transaction dataset with completed dummy mapping.
 
